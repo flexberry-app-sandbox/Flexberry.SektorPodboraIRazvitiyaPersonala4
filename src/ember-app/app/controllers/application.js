@@ -28,7 +28,7 @@ export default Controller.extend({
             link: 'i-i-s-sektor-podbora-i-razvitiya-personala-специалист-l',
             caption: i18n.t('forms.application.sitemap.сектор.i-i-s-sektor-podbora-i-razvitiya-personala-специалист-l.caption'),
             title: i18n.t('forms.application.sitemap.сектор.i-i-s-sektor-podbora-i-razvitiya-personala-специалист-l.title'),
-            icon: 'tags',
+            icon: 'folder',
             children: null
           }]
         }, {
@@ -40,13 +40,12 @@ export default Controller.extend({
             link: 'i-i-s-sektor-podbora-i-razvitiya-personala-анкеты-l',
             caption: i18n.t('forms.application.sitemap.увольнение.i-i-s-sektor-podbora-i-razvitiya-personala-анкеты-l.caption'),
             title: i18n.t('forms.application.sitemap.увольнение.i-i-s-sektor-podbora-i-razvitiya-personala-анкеты-l.title'),
-            icon: 'suitcase',
             children: null
           }, {
             link: 'i-i-s-sektor-podbora-i-razvitiya-personala-причин-увольн-l',
             caption: i18n.t('forms.application.sitemap.увольнение.i-i-s-sektor-podbora-i-razvitiya-personala-причин-увольн-l.caption'),
             title: i18n.t('forms.application.sitemap.увольнение.i-i-s-sektor-podbora-i-razvitiya-personala-причин-увольн-l.title'),
-            icon: 'list',
+            icon: 'file',
             children: null
           }]
         }

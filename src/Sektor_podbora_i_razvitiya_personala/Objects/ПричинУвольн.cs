@@ -30,11 +30,13 @@ namespace IIS.Sektor_podbora_i_razvitiya_personala
     [Caption("Причины увольнений и рекомендации")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ПричинУвольнE", new string[] {
-            "ДатаЗаполн as \'Дата заполнения\'"})]
+            "ДатаЗаполн as \'Дата заполнения\'",
+            "Специалист as \'ФИО\'"})]
     [AssociatedDetailViewAttribute("ПричинУвольнE", "Список", "СписокАнкетE", true, "", "Список анкет", true, new string[] {
             ""})]
     [AssociatedDetailViewAttribute("ПричинУвольнE", "Рекомендации", "РекомендацE", true, "", "Рекомендации", true, new string[] {
             ""})]
+    [MasterViewDefineAttribute("ПричинУвольнE", "Специалист", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "ФИО")]
     [View("ПричинУвольнL", new string[] {
             "ДатаЗаполн as \'Дата заполнения\'"})]
     public class ПричинУвольн : ICSSoft.STORMNET.DataObject

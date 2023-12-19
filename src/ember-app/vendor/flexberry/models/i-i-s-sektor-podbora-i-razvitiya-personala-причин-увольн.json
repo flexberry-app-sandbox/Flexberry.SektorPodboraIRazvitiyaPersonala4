@@ -49,7 +49,22 @@
           "index": 0
         }
       ],
-      "belongsTo": [],
+      "belongsTo": [
+        {
+          "lookupValue": "ФИО",
+          "lookupValueField": "фИО",
+          "relationName": "Специалист",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [],
+          "index": 1,
+          "type": "standard",
+          "caption": "ФИО",
+          "name": "специалист",
+          "relatedTo": "i-i-s-sektor-podbora-i-razvitiya-personala-специалист",
+          "inverse": null
+        }
+      ],
       "hasMany": [
         {
           "projectionName": "СписокАнкетE",

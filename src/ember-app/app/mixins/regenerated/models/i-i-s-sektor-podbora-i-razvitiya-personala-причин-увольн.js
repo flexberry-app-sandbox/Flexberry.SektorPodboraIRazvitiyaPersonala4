@@ -44,6 +44,9 @@ export let ValidationRules = {
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ПричинУвольнE', 'i-i-s-sektor-podbora-i-razvitiya-personala-причин-увольн', {
     датаЗаполн: attr('Дата заполнения', { index: 0 }),
+    специалист: belongsTo('i-i-s-sektor-podbora-i-razvitiya-personala-специалист', 'ФИО', {
+
+    }, { index: 1, displayMemberPath: 'фИО' }),
     список: hasMany('i-i-s-sektor-podbora-i-razvitiya-personala-список-анкет', 'Список анкет', {
       анкеты: belongsTo('i-i-s-sektor-podbora-i-razvitiya-personala-анкеты', 'Номер анкеты', {
         главнПричин: attr('Причина увольнения', { index: 1 }),

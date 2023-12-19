@@ -1,6 +1,14 @@
 ﻿{
   "propertyLookup": [
     {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Специалист",
+      "projection": "СпециалистL",
+      "detailModelName": null
+    },
+    {
       "master": "анкеты",
       "displayAttributeName": "номер",
       "required": false,
