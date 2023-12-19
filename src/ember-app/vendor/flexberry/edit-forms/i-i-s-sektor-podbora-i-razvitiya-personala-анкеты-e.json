@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Анкеты",
+  "name": "IISSektor_podbora_i_razvitiya_personalaАнкетыE",
+  "className": "АнкетыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-sektor-podbora-i-razvitiya-personala-анкеты",
+      "modelProjection": "АнкетыE"
+    }
+  ]
+}

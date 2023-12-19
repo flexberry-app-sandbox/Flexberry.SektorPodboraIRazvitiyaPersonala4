@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "анкеты",
+      "displayAttributeName": "номер",
+      "required": false,
+      "relationName": "Список.Анкеты",
+      "projection": "АнкетыL",
+      "detailModelName": "i-i-s-sektor-podbora-i-razvitiya-personala-список-анкет"
+    }
+  ],
+  "external": false,
+  "caption": "Причин увольн",
+  "name": "IISSektor_podbora_i_razvitiya_personalaПричинУвольнE",
+  "className": "ПричинУвольнE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-sektor-podbora-i-razvitiya-personala-причин-увольн",
+      "modelProjection": "ПричинУвольнE"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-sektor-podbora-i-razvitiya-personala-специалист-e",
+  "editForm": "i-i-s-sektor-podbora-i-razvitiya-personala-специалист-e",
+  "external": false,
+  "caption": "Специалист",
+  "name": "IISSektor_podbora_i_razvitiya_personalaСпециалистL",
+  "className": "СпециалистL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-sektor-podbora-i-razvitiya-personala-специалист",
+      "modelProjection": "СпециалистL"
+    }
+  ]
+}

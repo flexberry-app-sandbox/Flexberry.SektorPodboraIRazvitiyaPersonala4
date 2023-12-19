@@ -1,0 +1,4 @@
+import IISSektor_podbora_i_razvitiya_personalaАнкетыEController from '../i-i-s-sektor-podbora-i-razvitiya-personala-анкеты-e';
+
+var IISSektor_podbora_i_razvitiya_personalaАнкетыENewController = IISSektor_podbora_i_razvitiya_personalaАнкетыEController;
+export default IISSektor_podbora_i_razvitiya_personalaАнкетыENewController;

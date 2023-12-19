@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-sektor-podbora-i-razvitiya-personala-причин-увольн-e",
+  "editForm": "i-i-s-sektor-podbora-i-razvitiya-personala-причин-увольн-e",
+  "external": false,
+  "caption": "Причин увольн",
+  "name": "IISSektor_podbora_i_razvitiya_personalaПричинУвольнL",
+  "className": "ПричинУвольнL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-sektor-podbora-i-razvitiya-personala-причин-увольн",
+      "modelProjection": "ПричинУвольнL"
+    }
+  ]
+}

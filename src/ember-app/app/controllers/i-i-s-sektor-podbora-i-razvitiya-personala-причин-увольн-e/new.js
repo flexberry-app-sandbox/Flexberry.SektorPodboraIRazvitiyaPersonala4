@@ -1,0 +1,4 @@
+import IISSektor_podbora_i_razvitiya_personalaПричинУвольнEController from '../i-i-s-sektor-podbora-i-razvitiya-personala-причин-увольн-e';
+
+var IISSektor_podbora_i_razvitiya_personalaПричинУвольнENewController = IISSektor_podbora_i_razvitiya_personalaПричинУвольнEController;
+export default IISSektor_podbora_i_razvitiya_personalaПричинУвольнENewController;

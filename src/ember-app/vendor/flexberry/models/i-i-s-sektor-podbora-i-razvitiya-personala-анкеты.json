@@ -1,0 +1,209 @@
+﻿{
+  "name": "IISSektor_podbora_i_razvitiya_personalaАнкеты",
+  "modelName": "i-i-s-sektor-podbora-i-razvitiya-personala-анкеты",
+  "className": "Анкеты",
+  "nameSpace": "IIS.Sektor_podbora_i_razvitiya_personala",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "возрастСотруд",
+      "type": "i-i-s-sektor-podbora-i-razvitiya-personala-возраст",
+      "flexberryType": "Возраст",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "главнПричин",
+      "type": "i-i-s-sektor-podbora-i-razvitiya-personala-факторы",
+      "flexberryType": "Факторы",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "датаЗаполн",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "какойСтаж",
+      "type": "i-i-s-sektor-podbora-i-razvitiya-personala-стаж",
+      "flexberryType": "Стаж",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "коммент",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номер",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "относКатСотр",
+      "type": "i-i-s-sektor-podbora-i-razvitiya-personala-катег-сотруд",
+      "flexberryType": "КатегСотруд",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "оценРабот",
+      "type": "i-i-s-sektor-podbora-i-razvitiya-personala-оценка",
+      "flexberryType": "Оценка",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": false,
+      "name": "специалист",
+      "relatedTo": "i-i-s-sektor-podbora-i-razvitiya-personala-специалист",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "АнкетыE",
+      "modelName": "i-i-s-sektor-podbora-i-razvitiya-personala-анкеты",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "датаЗаполн",
+          "caption": "Дата заполнения",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "главнПричин",
+          "caption": "Главная причина ухода сотрудника",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "оценРабот",
+          "caption": "В целом оценивает работу увол. сотрудник",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "относКатСотр",
+          "caption": "Категория сотрудников",
+          "hidden": false,
+          "index": 4
+        },
+        {
+          "name": "какойСтаж",
+          "caption": "Стаж",
+          "hidden": false,
+          "index": 5
+        },
+        {
+          "name": "возрастСотруд",
+          "caption": "Возраст сотрудника",
+          "hidden": false,
+          "index": 6
+        },
+        {
+          "name": "коммент",
+          "caption": "Комментарии уволившегося сотрудника",
+          "hidden": false,
+          "index": 7
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "АнкетыL",
+      "modelName": "i-i-s-sektor-podbora-i-razvitiya-personala-анкеты",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "датаЗаполн",
+          "caption": "Дата заполнения",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "главнПричин",
+          "caption": "Главная причина",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "оценРабот",
+          "caption": "В целом оценивает",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "относКатСотр",
+          "caption": "Категория сотрудника",
+          "hidden": false,
+          "index": 4
+        },
+        {
+          "name": "какойСтаж",
+          "caption": "Стаж",
+          "hidden": false,
+          "index": 5
+        },
+        {
+          "name": "возрастСотруд",
+          "caption": "Возраст",
+          "hidden": false,
+          "index": 6
+        },
+        {
+          "name": "коммент",
+          "caption": "Комментарии",
+          "hidden": false,
+          "index": 7
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

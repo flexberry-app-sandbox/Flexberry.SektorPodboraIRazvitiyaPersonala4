@@ -1,0 +1,9 @@
+﻿{
+  "nameSpace": "IIS.Sektor_podbora_i_razvitiya_personala",
+  "className": "КатегСотруд",
+  "enumObjects": {
+    "Специалисты": "Специалисты",
+    "Рабочие": "Рабочие",
+    "Руководители": "Руководители"
+  }
+}

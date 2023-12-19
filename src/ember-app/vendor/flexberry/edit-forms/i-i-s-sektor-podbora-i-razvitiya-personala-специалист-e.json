@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Специалист",
+  "name": "IISSektor_podbora_i_razvitiya_personalaСпециалистE",
+  "className": "СпециалистE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-sektor-podbora-i-razvitiya-personala-специалист",
+      "modelProjection": "СпециалистE"
+    }
+  ]
+}

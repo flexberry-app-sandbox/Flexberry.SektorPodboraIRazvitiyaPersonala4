@@ -1,0 +1,4 @@
+import IISSektor_podbora_i_razvitiya_personalaСпециалистEController from '../i-i-s-sektor-podbora-i-razvitiya-personala-специалист-e';
+
+var IISSektor_podbora_i_razvitiya_personalaСпециалистENewController = IISSektor_podbora_i_razvitiya_personalaСпециалистEController;
+export default IISSektor_podbora_i_razvitiya_personalaСпециалистENewController;

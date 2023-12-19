@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistencehttp://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="Olingo4PG">
+        <class>Sektor_podbora_i_razvitiya_personala.model.SpisokAnket</class>
+        <class>Sektor_podbora_i_razvitiya_personala.model.Rekomendac</class>
+        <class>Sektor_podbora_i_razvitiya_personala.model.PrichinUvoln</class>
+        <class>Sektor_podbora_i_razvitiya_personala.model.Specialist</class>
+        <class>Sektor_podbora_i_razvitiya_personala.model.Ankety</class>
+        <class>Sektor_podbora_i_razvitiya_personala.model.FlexberryAdvLimit</class>
+        <class>Sektor_podbora_i_razvitiya_personala.model.NewPlatformFlexberryFlexberryUserSetting</class>
+        <class>Sektor_podbora_i_razvitiya_personala.model.NewPlatformFlexberryServicesLock</class>
+        <class>Sektor_podbora_i_razvitiya_personala.model.IISCaseberryLoggingObjectsApplicationLog</class>
+
+    </persistence-unit>
+</persistence>
